@@ -11,7 +11,7 @@
 To install this example application, run the following commands:
 
 ```bash
-git clone https://github.com/oktadeveloper/okta-spring-boot-react-crud-example.git spring-react
+git clone https://github.com/srvinoth/okta-spring-boot-react-crud-app.git spring-react
 cd spring-react
 ```
 
