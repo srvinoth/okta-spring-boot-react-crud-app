@@ -31,8 +31,6 @@ yarn && yarn start
 
 ### Create an Application in Okta
 
-You will need to [create an OIDC Application in Okta]() to get your values to perform authentication. 
-
 Log in to your Okta Developer account (or [sign up](https://developer.okta.com/signup/) if you don’t have an account) and navigate to **Applications** > **Add Application**. Click **Web**, click **Next**, and give the app a name you’ll remember. Specify `http://localhost:8080/login/oauth2/code/okta` as a Login redirect URI. Click **Done**, then click **Edit** to edit General Settings. Add `http://localhost:3000` and `http://localhost:8080` as Logout redirect URIs, then click **Save**. 
 
 #### Server Configuration
